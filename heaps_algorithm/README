@@ -1,0 +1,25 @@
+Heap's algorithm generates all possible permutations of N objects.
+
+heaps_algorithm.c recursive implementation
+heaps_algo_nonrecur non recursive implementation
+
+Compile the code
+~$ gcc -o heaps_algorithm heaps_algorithm.c
+~$ gcc -o heaps_algo_nonrecur heaps_algo_nonrecur.c
+
+Usage. This will ouptut all the possible permuations
+~$ ./heaps_algorithm 1 2 3
+1 2 3 
+2 1 3 
+3 1 2 
+1 3 2 
+2 3 1 
+3 2 1
+
+~$ ./heaps_algo_nonrecur 1 2 3
+1 2 3 
+2 1 3 
+3 1 2 
+1 3 2 
+2 3 1 
+3 2 1
